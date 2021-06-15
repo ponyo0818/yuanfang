@@ -60,7 +60,7 @@ export default ({ data }) => {
             </a>
             &nbsp;
             <b>{occupation}</b> discovering the world of software development.
-            I'm a Raleigh-Durham (RTP, NC) based and specialize in cloud engineering.
+            I'm Raleigh-Durham (RTP, NC) based and specialize in cloud engineering.
             My current role at American Family Insurance is designing and
             implementing tools, cloud solutions that helps development teams
             improve the engineering productivity.
