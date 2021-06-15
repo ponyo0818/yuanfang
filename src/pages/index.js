@@ -20,9 +20,9 @@ export default ({ data }) => {
           src={dark ? `../../icons/darth-vader.png` : `../../icons/r2-d2.png`}
           alt={dark ? "Darth Vader" : "R2-D2"}
         />
-        {unemployed && (
+        {!unemployed && (
           <p className="mt-2">
-            <b> Hey! I am looking for new opportunities :)</b>
+            <b> Hey! my name is</b>
           </p>
         )}
         <Container className="py-0 my-0">
@@ -41,11 +41,14 @@ export default ({ data }) => {
               {dark ? `Imperial enforcer by night` : `Rebel scum by night`}
             </i>
           </p>
+          <p className="mt-2">
+            <b> I build and deploy apps in the cloud </b>
+          </p>
         </Container>
         <hr className="my-3 w-25" />
         <div className="d-md-inline-flex icons-container">
           <a
-            href="https://www.github.com"
+            href="https://github.com/ponyo0818"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -82,6 +85,13 @@ export default ({ data }) => {
               icon={["fas", "file-alt"]}
               className="icons file"
               title="Resume"
+            />
+          </a>
+          <a href="https://www.instagram.com/succulent_north_carolina/" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon
+              icon={["fab", "instagram-square"]}
+              className="icons instagram"
+              title="Instagram"
             />
           </a>
         </div>

@@ -21,10 +21,11 @@ export default ({ data }) => {
     showsList,
     designations,
     unemployed,
+    showProject,
   } = data.site.siteMetadata
   const { toString } = useContext(ThemeContext)
 
-  const bookLinks = readingList.map(book => MediaLink(book))
+  const certificateLinks = readingList.map(book => MediaLink(book))
   const showLinks = showsList.map(show => MediaLink(show))
 
   return (
@@ -51,30 +52,40 @@ export default ({ data }) => {
           <p className="i-5 mt-4 pt-2">
             Hello there! My name is <b>{`${author}`}</b>. I am a&nbsp;
             <a
-              href="https://www.dictionary.com/e/fictional-characters/padawan/"
+              href="https://www.indeed.com/career-advice/finding-a-job/work-experience"
               target="_blank"
               rel="noopener noreferrer"
             >
-              padawan
+              Intermediate
             </a>
             &nbsp;
-            <b>{occupation}</b> discovering the ways of the code. Lorem ipsum
-            dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat.
+            <b>{occupation}</b> discovering the world of software development.
+            I'm a Raleigh-Durham (RTP, NC) based software engineer who specialize
+            My current role at American Family Insurance is designing and
+            implementing tools, cloud solutions that helps development teams
+            improve the engineering productivity.
+          </p>
+           <p className="i-5">
+            I'm part-time pursuing a master of computer science degree in
+             <a href = "https://omscs.gatech.edu/" target="_blank" rel="noopener noreferrer"> Georgia Tech. </a>
+           I completed courses such as "Information Security", "Computer Networks",
+          "Software Dev Process", "Software Arch & Design", and "Database System Concepts & Design" etc.
+          Successfully maintaining a 4.0 GPA until now :)
           </p>
           <p className="i-5">
-            In my spare time, Lorem ipsum dolor sit amet, consectetur adipiscing
-            elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-            laboris nisi ut aliquip ex ea commodo consequat.
+            In my spare time, I check new tech-related stuffs on Youtube, Pluralsight
+            etc, Manage my TitTok creator account&nbsp;
+            <a href="https://vm.tiktok.com/ZMdj5XaLP/" target="_blank" rel="noopener noreferrer">
+              Succulents Wonderland
+            </a>
+            , Workout with Nintendo switch, Taking care of my plants (succulents).
           </p>
-          <p className="i-5">
-            Check out my <Link to="/projects">projects</Link> to see what I've
-            been up to! Or check out my <Link to="/blog">blog</Link> to see
-            what's recently caught my eye!
-          </p>
+          {showProject && (
+            <p className="i-5">
+              Check out my <Link to="/projects">projects</Link> to see what I've
+              been up to!
+            </p>
+          )}
         </article>
         <article className="w-75 m-auto">
           {unemployed && (
@@ -86,7 +97,7 @@ export default ({ data }) => {
                   like what you <Link to="/resume">see</Link>, let's get
                   in&nbsp;
                   <a
-                    href="mailto:red.five@rebellion.com"
+                    href="mailto:yuanfang0818@gmail.com"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -99,19 +110,13 @@ export default ({ data }) => {
           )}
           <hr />
           <h5 className="watch-list-title pt-4">
-            Here are a couple of books from my reading list:
+            Here are the certificates I got:
           </h5>
-          <ul style={{ fontSize: "0.9rem", listStyle: "none" }}>{bookLinks}</ul>
+          <ul style={{ fontSize: "0.9rem", listStyle: "none" }}>{certificateLinks}</ul>
           <h5 className="watch-list-title pt-4">
-            Here are a couple of shows from my watch list:
+            Here are the online courses I took and liked:
           </h5>
           <ul style={{ fontSize: "0.9rem", listStyle: "none" }}>{showLinks}</ul>
-          <h5 className="watch-list-title pt-4">
-            Here are a couple of movies from my watch list:
-          </h5>
-          <p>
-            <i>...waaaay too many to list.</i>
-          </p>
         </article>
       </Container>
     </PageLayout>
@@ -123,6 +128,7 @@ export const query = graphql`
     site {
       siteMetadata {
         unemployed
+        showProject
         occupation
         author
         designations
