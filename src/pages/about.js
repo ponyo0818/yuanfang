@@ -50,7 +50,7 @@ export default ({ data }) => {
             ))}
           </p>
           <p className="i-5 mt-4 pt-2">
-            Hello there! My name is <b>{`${author}`}</b>. I am a&nbsp;
+            Hello there! My name is <b>{`${author}`}</b>. I am an&nbsp;
             <a
               href="https://www.indeed.com/career-advice/finding-a-job/work-experience"
               target="_blank"
@@ -60,13 +60,13 @@ export default ({ data }) => {
             </a>
             &nbsp;
             <b>{occupation}</b> discovering the world of software development.
-            I'm a Raleigh-Durham (RTP, NC) based software engineer who specialize
+            I'm a Raleigh-Durham (RTP, NC) based and specialize in cloud engineering.
             My current role at American Family Insurance is designing and
             implementing tools, cloud solutions that helps development teams
             improve the engineering productivity.
           </p>
            <p className="i-5">
-            I'm part-time pursuing a master of computer science degree in
+            I'm part-time pursuing a Master of computer science degree in
              <a href = "https://omscs.gatech.edu/" target="_blank" rel="noopener noreferrer"> Georgia Tech. </a>
            I completed courses such as "Information Security", "Computer Networks",
           "Software Dev Process", "Software Arch & Design", and "Database System Concepts & Design" etc.
