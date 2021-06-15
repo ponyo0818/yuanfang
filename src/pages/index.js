@@ -38,7 +38,7 @@ export default ({ data }) => {
           <p>
             <i>
               {occupation} by day,&nbsp;
-              {dark ? `Imperial enforcer by night` : `Rebel scum by night`}
+              {dark ? `Hacker by night` : `Grad student by night`}
             </i>
           </p>
           <p className="mt-2">
