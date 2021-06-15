@@ -7,21 +7,21 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: `John Doe`,
-    author: `John Doe`,
-    firstName: `John`,
-    lastName: `Doe`,
-    description: `John Doe's personal site`,
+    title: `Yuan Fang`,
+    author: `Yuan Fang`,
+    firstName: `Yuan`,
+    lastName: `Fang`,
+    description: `Yuan Fang's personal site`,
     occupation: `Software Engineer`,
-    keywords: [`John`, `Doe`, `Personal`, `Blog`, `Resume`, `Projects`, `Work`],
+    keywords: [`Yuan`, `Fang`, `Personal`, `Blog`, `Resume`, `Projects`, `Work`],
     siteUrl:
       process.env.URL || process.env.DEPLOY_URL || `http://localhost:8000`,
     unemployed: true,
     designations: [
-      `Coding Monkey`,
-      `Jedi Master`,
-      `Binary Sunset Enthusiast`,
-      `Moisture Farmer`,
+      `Lifelong Learner`,
+      `Problem Solver`,
+      `Succulents Enthusiast`,
+      `K-Pop Dancer`,
     ],
     readingList: [
       {

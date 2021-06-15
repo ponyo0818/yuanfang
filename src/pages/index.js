@@ -56,7 +56,7 @@ export default ({ data }) => {
             />
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/yuanfang0818/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -67,29 +67,7 @@ export default ({ data }) => {
             />
           </a>
           <a
-            href="https://www.freecodecamp.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FontAwesomeIcon
-              icon={["fab", "free-code-camp"]}
-              className="icons fcc"
-              title="FreeCodeCamp"
-            />
-          </a>
-          <a
-            href="https://www.hackerrank.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FontAwesomeIcon
-              icon={["fab", "hackerrank"]}
-              className="icons hr"
-              title="Hackerrank"
-            />
-          </a>
-          <a
-            href="mailto:johndoe@gmail.com"
+            href="mailto:yuanfang0818@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
           >
