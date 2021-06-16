@@ -68,9 +68,9 @@ export default ({ data }) => {
            <p className="i-5">
             I'm part-time pursuing a Master of computer science degree in
              <a href = "https://omscs.gatech.edu/" target="_blank" rel="noopener noreferrer"> Georgia Tech. </a>
-           I completed courses such as "Information Security", "Computer Networks",
+           Courses that I have completed include "Information Security", "Computer Networks",
           "Software Dev Process", "Software Arch & Design", and "Database System Concepts & Design" etc.
-          Successfully maintaining a 4.0 GPA until now :)
+          maintain a 4.0 GPA so far :)
           </p>
           <p className="i-5">
             In my spare time, I check new tech-related stuffs on Youtube, Pluralsight
