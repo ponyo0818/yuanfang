@@ -5,6 +5,7 @@ import { PageLayout } from "../components"
 import { SEO } from "../utils"
 import { Container, Image } from "react-bootstrap"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { OutboundLink } from "gatsby-plugin-google-analytics"
 
 export default ({ data }) => {
   const { unemployed, firstName, lastName, occupation } = data.site.siteMetadata
@@ -47,7 +48,7 @@ export default ({ data }) => {
         </Container>
         <hr className="my-3 w-25" />
         <div className="d-md-inline-flex icons-container">
-          <a
+          <OutboundLink
             href="https://github.com/ponyo0818"
             target="_blank"
             rel="noopener noreferrer"
@@ -57,8 +58,8 @@ export default ({ data }) => {
               className="icons github"
               title="Github"
             />
-          </a>
-          <a
+          </OutboundLink>
+          <OutboundLink
             href="https://www.linkedin.com/in/yuanfang0818/"
             target="_blank"
             rel="noopener noreferrer"
@@ -68,7 +69,7 @@ export default ({ data }) => {
               className="icons linkedin"
               title="LinkedIn"
             />
-          </a>
+          </OutboundLink>
           <a
             href="mailto:yuanfang0818@gmail.com"
             target="_blank"
@@ -80,20 +81,20 @@ export default ({ data }) => {
               title="e-mail"
             />
           </a>
-          <a href="../../resume.pdf" target="_blank" download>
+          <OutboundLink href="../../resume.pdf" target="_blank" download>
             <FontAwesomeIcon
               icon={["fas", "file-alt"]}
               className="icons file"
               title="Resume"
             />
-          </a>
-          <a href="https://www.instagram.com/succulent_north_carolina/" target="_blank" rel="noopener noreferrer">
+          </OutboundLink>
+          <OutboundLink href="https://www.instagram.com/succulent_north_carolina/" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon
               icon={["fab", "instagram-square"]}
               className="icons instagram"
               title="Instagram"
             />
-          </a>
+          </OutboundLink>
         </div>
       </Container>
     </PageLayout>
