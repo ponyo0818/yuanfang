@@ -5,6 +5,7 @@ import { PageLayout } from "../components"
 import { SEO } from "../utils"
 import { Container, Image } from "react-bootstrap"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { OutboundLink } from "gatsby-plugin-google-gtag"
 
 export default ({ data }) => {
   const { unemployed, firstName, lastName, occupation } = data.site.siteMetadata
@@ -47,7 +48,7 @@ export default ({ data }) => {
         </Container>
         <hr className="my-3 w-25" />
         <div className="d-md-inline-flex icons-container">
-          <a
+          <OutboundLink
             href="https://github.com/ponyo0818"
             target="_blank"
             rel="noopener noreferrer"
@@ -57,8 +58,8 @@ export default ({ data }) => {
               className="icons github"
               title="Github"
             />
-          </a>
-          <a
+          </OutboundLink>
+          <OutboundLink
             href="https://www.linkedin.com/in/yuanfang0818/"
             target="_blank"
             rel="noopener noreferrer"
@@ -68,8 +69,8 @@ export default ({ data }) => {
               className="icons linkedin"
               title="LinkedIn"
             />
-          </a>
-          <a
+          </OutboundLink>
+          <OutboundLink
             href="mailto:yuanfang0818@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
@@ -79,14 +80,14 @@ export default ({ data }) => {
               className="icons mail"
               title="e-mail"
             />
-          </a>
-          <a href="../../resume.pdf" target="_blank" download>
+          </OutboundLink>
+          <OutboundLink href="../../resume.pdf" target="_blank" download>
             <FontAwesomeIcon
               icon={["fas", "file-alt"]}
               className="icons file"
               title="Resume"
             />
-          </a>
+          </OutboundLink>
           <a href="https://www.instagram.com/succulent_north_carolina/" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon
               icon={["fab", "instagram-square"]}
