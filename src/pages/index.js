@@ -5,7 +5,6 @@ import { PageLayout } from "../components"
 import { SEO } from "../utils"
 import { Container, Image } from "react-bootstrap"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { OutboundLink } from "gatsby-plugin-google-gtag"
 
 export default ({ data }) => {
   const { unemployed, firstName, lastName, occupation } = data.site.siteMetadata
@@ -59,7 +58,7 @@ export default ({ data }) => {
               title="Github"
             />
           </a>
-          <OutboundLink
+          <a
             href="https://www.linkedin.com/in/yuanfang0818/"
             target="_blank"
             rel="noopener noreferrer"
@@ -69,7 +68,7 @@ export default ({ data }) => {
               className="icons linkedin"
               title="LinkedIn"
             />
-          </OutboundLink>
+          </a>
           <a
             href="mailto:yuanfang0818@gmail.com"
             target="_blank"
