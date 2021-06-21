@@ -28,6 +28,9 @@ export default () => {
           <Nav.Link className="ml-2" as={Link} to="/resume" title="Resume">
             Resume
           </Nav.Link>
+          <Nav.Link className="ml-2" as={Link} to="/blog" title="Blog">
+            Blog
+          </Nav.Link>
           <Form className="ml-3 my-auto">
             <Form.Check
               type="switch"
