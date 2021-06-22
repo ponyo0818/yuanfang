@@ -4,7 +4,6 @@ import { Navbar, Nav, Form } from "react-bootstrap"
 import { Link } from "gatsby"
 import "./Fontawesome.js"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { OutboundLink } from "gatsby-plugin-google-gtag"
 
 export default () => {
   const { dark, toggleDark, toString } = useContext(ThemeContext)
@@ -29,11 +28,9 @@ export default () => {
           <Nav.Link className="ml-2" as={Link} to="/resume" title="Resume">
             Resume
           </Nav.Link>
-          <OutboundLink>
           <Nav.Link className="ml-2" as={Link} to="/blog" title="Blog">
             Blog
           </Nav.Link>
-          </OutboundLink>
           <Form className="ml-3 my-auto">
             <Form.Check
               type="switch"
