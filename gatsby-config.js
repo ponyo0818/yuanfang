@@ -74,7 +74,6 @@ module.exports = {
     ],
   },
   plugins: [
-    `gatsby-plugin-gatsby-cloud`
     `gatsby-plugin-preload-link-crossorigin`,
     `gatsby-plugin-catch-links`,
     {
