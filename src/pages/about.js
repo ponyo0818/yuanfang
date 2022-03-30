@@ -50,17 +50,10 @@ export default ({ data }) => {
             ))}
           </p>
           <p className="i-5 mt-4 pt-2">
-            Hello there! My name is <b>{`${author}`}</b>. I am an&nbsp;
-            <a
-              href="https://www.indeed.com/career-advice/finding-a-job/work-experience"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Intermediate
-            </a>
-            &nbsp;
+            Hello there! My name is <b>{`${author}`}</b>. I am an
             <b>{occupation}</b> discovering the world of software development.
-            I'm Raleigh-Durham (RTP, NC) based and specialize in cloud engineering.
+            I'm Raleigh-Durham (RTP, NC) based and specialize in cloud engineering,
+            web development (building RESTful API and UI Apps),
             My current role at American Family Insurance is designing and
             implementing tools, cloud solutions that helps development teams
             improve the engineering productivity.
@@ -78,7 +71,7 @@ export default ({ data }) => {
             <a href="https://vm.tiktok.com/ZMdj5XaLP/" target="_blank" rel="noopener noreferrer">
               Succulents Wonderland
             </a>
-            , Workout with Nintendo switch, Taking care of my plants (succulents).
+            , Play games with Nintendo switch, Taking care of my plants (succulents).
           </p>
           {showProject && (
             <p className="i-5">

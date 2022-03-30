@@ -17,10 +17,10 @@ endDate: ""
        - Developed front-end UI (SPA | React.js) for:
             * A message management platform that allows users to view, edit, delete and reprocess messages in Error queues and DL queues (Amazon MQ, SQS, GCP PubSub).
             * A platform that provides insights on real-time datasets (dashboard/report). 
-        - Integrated it with Okta authorization and authentication.
-        - Designed the infrastructure (AWS CloudFormation) and deployed it to AWS (S3, Cloudfront) using Gitlab CI.
+       - Integrated it with Okta authorization and authentication.
+       - Designed the infrastructure (AWS CloudFormation) and deployed it to AWS (S3, Cloudfront) using Gitlab CI.
    * Back-end:
-    - Implemented functions for auditing on message operations, endpoints of RESTful API (Java Spring).
-    - Implemented and deployed microservices - data ingestor and analyzer (Python, Java)
+       - Implemented functions for auditing on message operations, endpoints of RESTful API (Java Spring).
+       - Implemented and deployed microservices - data ingestor and analyzer (Python, Java)
 
 
