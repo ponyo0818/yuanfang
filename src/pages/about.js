@@ -50,7 +50,7 @@ export default ({ data }) => {
             ))}
           </p>
           <p className="i-5 mt-4 pt-2">
-            Hello there! My name is <b>{`${author}`}</b>. I am an &nbsp
+            Hello there! My name is <b>{`${author}`}</b>. I am an &nbsp;
             <b>{occupation}</b> discovering the world of software development.
             I'm Raleigh-Durham (RTP, NC) based and specialize in cloud engineering,
             web development (building RESTful API and UI Apps),
