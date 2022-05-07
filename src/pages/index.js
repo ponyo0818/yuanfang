@@ -38,8 +38,8 @@ export default ({ data }) => {
           </h1>
           <p>
             <i>
-              {occupation} by day,&nbsp;
-              {dark ? `Hacker by night` : `Grad student by night`}
+              {occupation} | LifeLong Learner |
+              {dark ? ` Hacker ` : ` Succulents Enthusiast`}
             </i>
           </p>
           <p className="mt-2">
@@ -88,7 +88,11 @@ export default ({ data }) => {
               title="Resume"
             />
           </OutboundLink>
-          <a href="https://www.instagram.com/succulent_north_carolina/" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://www.instagram.com/succulent_north_carolina/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FontAwesomeIcon
               icon={["fab", "instagram-square"]}
               className="icons instagram"

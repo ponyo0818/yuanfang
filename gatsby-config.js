@@ -13,16 +13,20 @@ module.exports = {
     lastName: `Fang`,
     description: `Yuan Fang's personal site`,
     occupation: `Software Engineer`,
-    keywords: [`Yuan`, `Fang`, `Personal`, `Blog`, `Resume`, `Projects`, `Work`],
+    keywords: [
+      `Yuan`,
+      `Fang`,
+      `Personal`,
+      `Blog`,
+      `Resume`,
+      `Projects`,
+      `Work`,
+    ],
     siteUrl:
       process.env.URL || process.env.DEPLOY_URL || `http://localhost:8000`,
     unemployed: false,
     showProject: false,
-    designations: [
-      `Lifelong Learner`,
-      `Problem Solver`,
-      `Succulents Enthusiast`,
-    ],
+    designations: [`- Life is a marathon, not a sprint - `],
     readingList: [
       {
         title: `AWS Certified Developer – Associate`,

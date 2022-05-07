@@ -52,26 +52,44 @@ export default ({ data }) => {
           <p className="i-5 mt-4 pt-2">
             Hello there! My name is <b>{`${author}`}</b>. I am a&nbsp;
             <b>{occupation}</b> discovering the world of software development.
-            I'm Raleigh-Durham (RTP, NC) based and specialize in cloud engineering,
-            web development (building RESTful API and UI Apps),
-            My current role at American Family Insurance is designing and
+            I'm Raleigh-Durham (RTP, NC) based and specialize in cloud
+            engineering, web development (building RESTful APIs and UI Apps), My
+            current role at American Family Insurance is designing and
             implementing tools, cloud solutions that helps development teams
             improve the engineering productivity.
           </p>
-           <p className="i-5">
-            I'm part-time pursuing a Master of computer science degree in
-             <a href = "https://omscs.gatech.edu/" target="_blank" rel="noopener noreferrer"> Georgia Tech. </a>
-           Courses that I have completed include "Information Security", "Computer Networks",
-          "Software Dev Process", "Software Arch & Design", and "Database System Concepts & Design" etc.
-          maintain a 4.0 GPA so far :)
+          <p className="i-5">
+            Recently, I got a Master of computer science degree in
+            <a
+              href="https://omscs.gatech.edu/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {" "}
+              Georgia Tech.{" "}
+            </a>
+            and graduated with a 4.0 GPA 😎. I received my PhD degree in
+            Forestry from{" "}
+            <a
+              href="https://www.ncsu.edu/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              North Carolina State University 
+            </a>. 
           </p>
           <p className="i-5">
-            In my spare time, I check new tech-related stuffs on Youtube, Pluralsight
-            etc, Manage my TitTok creator account&nbsp;
-            <a href="https://vm.tiktok.com/ZMdj5XaLP/" target="_blank" rel="noopener noreferrer">
+            In my spare time, I check new tech-related stuffs on Youtube,
+            Pluralsight etc, Manage my TitTok creator account&nbsp;
+            <a
+              href="https://vm.tiktok.com/ZMdj5XaLP/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Succulents Wonderland
             </a>
-            , Play games with Nintendo switch, Taking care of my plants (succulents).
+            , Play games (Nintendo switch - "JustDance", League of Legends),
+            Taking care of my plants (succulents).
           </p>
           {showProject && (
             <p className="i-5">
@@ -105,7 +123,9 @@ export default ({ data }) => {
           <h5 className="watch-list-title pt-4">
             Here are the certificates I got:
           </h5>
-          <ul style={{ fontSize: "0.9rem", listStyle: "none" }}>{certificateLinks}</ul>
+          <ul style={{ fontSize: "0.9rem", listStyle: "none" }}>
+            {certificateLinks}
+          </ul>
           <h5 className="watch-list-title pt-4">
             Here are the online courses I took and liked:
           </h5>
