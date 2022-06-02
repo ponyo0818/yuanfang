@@ -75,14 +75,15 @@ export default ({ data }) => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              North Carolina State University 
-            </a>. 
+              North Carolina State University
+            </a>
+            .
           </p>
           <p className="i-5">
             In my spare time, I check new tech-related stuffs on Youtube,
             Pluralsight etc, Manage my TitTok creator account&nbsp;
             <a
-              href="https://vm.tiktok.com/ZMdj5XaLP/"
+              href="https://www.tiktok.com/@succulents_wonderland?lang=en"
               target="_blank"
               rel="noopener noreferrer"
             >
